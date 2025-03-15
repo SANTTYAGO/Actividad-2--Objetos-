@@ -20,6 +20,16 @@ class Tienda {
         this.productos.push(producto);
     }
 
-    
+    // Método para actualizar la cantidad de un producto
+    actualizarCantidad(nombre, nuevaCantidad) {
+        const producto = this.productos.find(p => p.nombre === nombre);
+        if (producto) {
+            producto.cantidad = nuevaCantidad;
+        } else {
+            console.log(`Producto ${nombre} no encontrado.`);
+        }
+    }
 
+
+    
 }
