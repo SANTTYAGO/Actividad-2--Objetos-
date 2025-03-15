@@ -38,5 +38,12 @@ class Tienda {
         }
     }
 
+    // Método para mostrar la información de todos los productos
+    mostrarProductos() {
+        this.productos.forEach(producto => {
+            console.log(`Nombre: ${producto.nombre}, Precio: ${producto.precio}, Cantidad: ${producto.cantidad}`);
+        });
+    }
+    
 }
 
