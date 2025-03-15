@@ -41,5 +41,14 @@ class Tienda {
             console.log(`Nombre: ${producto.nombre}, Precio: ${producto.precio}, Cantidad: ${producto.cantidad}`);
         });
     }
-
+    
 }
+
+// Crear una instancia de Tienda
+const tienda = new Tienda();
+
+// Configurar readline para interactuar con la consola
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
