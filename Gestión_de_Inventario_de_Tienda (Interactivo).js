@@ -8,3 +8,18 @@ class Producto {
         this.cantidad = cantidad;
     }
 }
+
+// Y aqui definimos la clase Tienda
+class Tienda {
+    constructor() {
+        this.productos = [];
+    }
+
+    // Método para agregar un producto
+    agregarProducto(producto) {
+        this.productos.push(producto);
+    }
+
+    
+
+}
