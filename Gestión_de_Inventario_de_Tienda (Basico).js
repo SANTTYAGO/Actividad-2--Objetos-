@@ -1,3 +1,4 @@
+// Definimos la clase Producto
 class Producto {
     constructor(nombre, precio, cantidad) {
         this.nombre = nombre;
@@ -6,3 +7,8 @@ class Producto {
     }
 }
 
+class Tienda {
+    constructor() {
+        this.productos = [];
+    }
+}
