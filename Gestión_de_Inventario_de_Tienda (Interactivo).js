@@ -30,6 +30,10 @@ class Tienda {
         }
     }
 
+    // Método para quitar un producto
+    quitarProducto(nombre) {
+        this.productos = this.productos.filter(p => p.nombre !== nombre);
+    }
 
-    
+
 }
