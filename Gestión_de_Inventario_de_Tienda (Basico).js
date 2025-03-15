@@ -47,3 +47,17 @@ class Tienda {
     
 }
 
+// Y su respectivo uso
+const tienda = new Tienda();
+
+const producto1 = new Producto('Manzanas', 1.5, 30);
+const producto2 = new Producto('Naranjas', 2.0, 20);
+
+tienda.agregarProducto(producto1);
+tienda.agregarProducto(producto2);
+
+tienda.mostrarProductos();
+
+tienda.actualizarCantidad('Manzanas', 25);
+tienda.mostrarProductos();
+
