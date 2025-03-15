@@ -1,4 +1,4 @@
-// Definimos la clase Producto
+// Aqui se define la clase Producto
 class Producto {
     constructor(nombre, precio, cantidad) {
         this.nombre = nombre;
@@ -7,8 +7,15 @@ class Producto {
     }
 }
 
+// Y aqui se define la clase Tienda
 class Tienda {
     constructor() {
         this.productos = [];
     }
+    
+        // Método para agregar un producto
+        agregarProducto(producto) {
+            this.productos.push(producto);
+        }
 }
+
