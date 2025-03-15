@@ -104,3 +104,5 @@ function mostrarMenu() {
     });
 }        
 
+// Mostrar el menú inicial
+mostrarMenu();
